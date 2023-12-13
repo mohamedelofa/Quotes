@@ -1,0 +1,19 @@
+@import url(../impact.ttf);
+
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:80px;
+}
+
+p{
+    font-size:35px;
+}
+.main{
+    background-image:url(../images/container-ship-at-sunset.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#author{
+    color:#ffc107;
+}
