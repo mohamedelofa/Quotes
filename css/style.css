@@ -1,12 +1,16 @@
 @import url(../impact.ttf);
 
+html{
+    font-size:16px;
+}
+
 h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size:80px;
+    font-size: 5rem;
 }
 
 p{
-    font-size:35px;
+    font-size:2.1875rem;
 }
 .main{
     background-image:url(../images/container-ship-at-sunset.jpg);
@@ -16,4 +20,19 @@ p{
 
 #author{
     color:#ffc107;
+}
+button{
+    font-size: 1.25rem !important;
+}
+SPan{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size:5rem;
+    color:#ffc107d0;
+}
+
+
+@media only screen and (max-width: 300px){
+    html{
+        font-size:8px;
+    }
 }

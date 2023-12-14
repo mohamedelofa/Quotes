@@ -11,17 +11,19 @@
     
     <link rel="stylesheet" href="css/style.css"/>
 <body>
-  <div class="d-flex align-items-center min-vh-100 main">
-    <div class="container text-center  ">
-        <h1>Quote of the Day</h1>
+  <div class="d-flex  flex-column justify-content-between min-vh-100 main">
+    <div class="container text-center mt-5">
+        <h1><span>Q</span>uote of the Day</h1>
         <p>Press the button below to recieve a random quote!</p>
-        <div class="d-grid gap-2 mb-4">
+    
+    <div class="d-grid gap-2 mb-4">
             <button onclick="display()" class="btn btn-outline-warning py-3 rounded-3" type="button">New Quote</button>
-          </div>
+    </div>
+  </div>
+    <div class="container text-center d-flex  flex-column mb-5">
           <p id="quote"></p>
           <p id="author" class="text-end"></p>
-         
-       </div>
+        </div>
   </div>
 
 
